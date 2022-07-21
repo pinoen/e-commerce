@@ -108,10 +108,12 @@ form > input {
   margin-bottom: 8px;
 }
 form > input {
+  width: 560px;
   height: 56px;
   margin-bottom: 16px;
 }
 form > textarea {
+  width: 560px;
   height: 82px;
   margin-bottom: 8px;
 }

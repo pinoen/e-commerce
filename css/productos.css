@@ -17,10 +17,10 @@
 }
 
 /* Header style */
-
 .buscador__header {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 32px;
   align-items: center;
   margin: 32px 115px;
 }
@@ -37,44 +37,8 @@
   background-repeat: no-repeat;
   outline: none;
 }
-.boton__login {
-  width: 182px;
-  height: 51px;
-  border: 1px solid var(--color-bgBtn);
-  color: var(--color-bgBtn);
-  font-size: 1rem;
-}
-
 .lupa {
   display: none;
-}
-
-.bg__header {
-  background-image: url(../img/Hero.png);
-  height: 352px;
-  display: flex;
-  flex-direction: column;
-  padding-left: 115px;
-  padding-top: 150px;
-  gap: 16px;
-}
-.title__header {
-  color: #fff;
-  font-weight: 700;
-  font-size: 3.25rem;
-}
-.p__header {
-  color: #fff;
-  font-weight: 700;
-  font-size: 1.375rem;
-}
-.boton__consolas {
-  width: 129px;
-  height: 51px;
-  background-color: var(--color-bgBtn);
-  border: none;
-  color: #fff;
-  font-size: 1rem;
 }
 
 /* Main style */

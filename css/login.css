@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+
+:root {
+  --color-bgBtn: #2a7ae4;
+  --color-bgInput: #e5e5e5;
+  --color-titleProductos: #464646;
+  --color-bg-footer: #eaf2fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* Header style */
+
+.buscador__header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+  align-items: center;
+  margin: 32px 115px;
+}
+
+.input__header {
+  width: 393px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 16px;
+  background-color: var(--color-bgInput);
+  background-image: url(../img/lupa.png);
+  background-position: calc(393px - 40px);
+  background-repeat: no-repeat;
+  outline: none;
+}
+
+/* Main style */
+
+main {
+  background-color: var(--color-bgInput);
+  width: 100%;
+  height: 474px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form > input {
+  width: 423px;
+  height: 63px;
+}
+.entrar {
+  height: 62px;
+  background-color: var(--color-bgBtn);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Footer style */
+
+.contacto {
+  display: flex;
+  gap: 112px;
+  width: 100%;
+  height: 368px;
+  background-color: var(--color-bg-footer);
+  padding: 64px 115px;
+}
+.logo__contacto {
+  width: 176px;
+  height: 50px;
+}
+.links > li {
+  padding-bottom: 24px;
+  color: var(--color-titleProductos);
+  font-size: 1rem;
+  font-weight: 500;
+  width: 176px;
+}
+.links li a {
+  color: var(--color-titleProductos);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  height: 240px;
+}
+.form {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+form > input {
+  height: 56px;
+  margin-bottom: 16px;
+}
+form > textarea {
+  height: 82px;
+  margin-bottom: 8px;
+}
+.boton__contacto {
+  width: 144px;
+  height: 51px;
+  background-color: var(--color-bgBtn);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.rodapie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.rodapie img {
+  width: 40px;
+}
+.rodapie img:hover {
+  transform: scale(0.95);
+}

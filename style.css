@@ -209,13 +209,8 @@ form > textarea {
   }
 
   .bg__header {
-    background-image: url(img/Hero.png);
-    height: 352px;
-    display: flex;
-    flex-direction: column;
     padding-left: 16px;
     padding-top: 161px;
-    gap: 16px;
   }
 
   .boton__consolas {
@@ -276,6 +271,104 @@ form > textarea {
   .formulario form {
     width: 434px;
     height: 229px;
+  }
+
+  .boton__contacto {
+    width: 133px;
+    height: 40px;
+  }
+}
+
+/* Responsive design */
+/* Mobile max-width 360px */
+
+@media (max-width: 360px) {
+  .buscador__header {
+    background-image: url(img/lupa.png);
+    background-position: 290px;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
+    gap: 35.5px;
+  }
+
+  .input__header {
+    display: none;
+  }
+  .logo__header {
+    width: 100px;
+  }
+  .boton__login {
+    width: 133px;
+  }
+
+  .bg__header {
+    padding-top: 78px;
+    height: 192px;
+  }
+  .title__header {
+    font-size: 1.375rem;
+  }
+  .p__header {
+    font-size: 1rem;
+  }
+
+  /* Main style */
+
+  main {
+    padding: 16px;
+  }
+  .starWars,
+  .consolas,
+  .diversos {
+    width: 368px;
+  }
+  .title__container {
+    width: 328px;
+  }
+  .imagenes {
+    flex-wrap: wrap;
+  }
+
+  .title__starWars,
+  .title__consolas,
+  .title__diversos {
+    font-size: 1.375rem;
+  }
+  .box__starWars:nth-child(5),
+  .box__starWars:nth-child(6),
+  .box__consolas:nth-child(5),
+  .box__consolas:nth-child(6),
+  .box__diversos:nth-child(5),
+  .box__diversos:nth-child(6) {
+    display: none;
+  }
+
+  /* Footer style */
+
+  .contacto {
+    flex-direction: column;
+    height: 590px;
+    align-items: center;
+    padding: 16px;
+  }
+  .logo__contacto {
+    position: static;
+  }
+
+  .links {
+    padding-top: 66px;
+    padding: 0 16px;
+    margin: 0;
+    text-align: center;
+  }
+  .links > li {
+    padding-bottom: 16px;
+  }
+
+  .formulario form {
+    width: 328px;
+    height: 229px;
+    padding: 8px 0;
   }
 
   .boton__contacto {

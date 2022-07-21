@@ -44,11 +44,10 @@
 /* Main style */
 
 main {
-  padding: 64px 115px;
+  padding: 24px 115px;
+  background-color: var(--color-bgInput);
 }
-.starWars,
-.consolas,
-.diversos {
+.producto {
   display: flex;
   flex-direction: column;
   width: 1136px;
@@ -59,34 +58,48 @@ main {
   justify-content: space-between;
   align-items: center;
 }
-.title__starWars,
-.title__consolas,
-.title__diversos {
+.title__producto {
   font-size: 2rem;
   color: var(--color-titleProductos);
   font-weight: 700;
+  margin-bottom: 16px;
 }
-.ver {
+.agregar button {
+  width: 163px;
+  height: 51px;
+  background-color: var(--color-bgBtn);
+  border: none;
+  color: #fff;
   font-size: 1rem;
-  font-weight: 700;
+  margin-bottom: 16px;
 }
-.ver a {
-  color: var(--color-bgBtn);
-}
+
 .precio {
   font-weight: 700;
 }
 
 .imagenes {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
-.box__starWars,
-.box__consolas,
-.box__diversos {
+.box__producto {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+.eliminar {
+  position: absolute;
+  width: 24px;
+  top: 8px;
+  right: 48px;
+}
+.editar {
+  position: absolute;
+  width: 24px;
+  top: 8px;
+  right: 8px;
 }
 
 /* Footer style */
@@ -192,9 +205,7 @@ form > textarea {
   main {
     padding: 32px 16px;
   }
-  .starWars,
-  .consolas,
-  .diversos {
+  .producto {
     width: 740px;
   }
   .title__container {
@@ -202,20 +213,11 @@ form > textarea {
   }
   .imagenes {
     gap: 6px;
+    flex-wrap: wrap;
   }
 
-  .title__starWars,
-  .title__consolas,
-  .title__diversos {
+  .title__producto {
     font-size: 1.375rem;
-  }
-  .box__starWars:nth-child(5),
-  .box__starWars:nth-child(6),
-  .box__consolas:nth-child(5),
-  .box__consolas:nth-child(6),
-  .box__diversos:nth-child(5),
-  .box__diversos:nth-child(6) {
-    display: none;
   }
 
   /* Footer style */
@@ -289,30 +291,24 @@ form > textarea {
   main {
     padding: 16px;
   }
-  .starWars,
-  .consolas,
-  .diversos {
+  .producto {
     width: 368px;
   }
   .title__container {
     width: 328px;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .imagenes {
     flex-wrap: wrap;
   }
-
-  .title__starWars,
-  .title__consolas,
-  .title__diversos {
-    font-size: 1.375rem;
+  .box__producto .foto {
+    width: 140px;
+    height: 174px;
   }
-  .box__starWars:nth-child(5),
-  .box__starWars:nth-child(6),
-  .box__consolas:nth-child(5),
-  .box__consolas:nth-child(6),
-  .box__diversos:nth-child(5),
-  .box__diversos:nth-child(6) {
-    display: none;
+
+  .title__producto {
+    font-size: 1.375rem;
   }
 
   /* Footer style */

@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+
+:root {
+  --color-bgBtn: #2a7ae4;
+  --color-bgInput: #e5e5e5;
+  --color-titleProductos: #464646;
+  --color-bg-footer: #eaf2fd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.buscador__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 115px;
+}
+
+.input__header {
+  width: 393px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 16px;
+  background-color: var(--color-bgInput);
+  background-image: url(img/lupa.png);
+  background-position: calc(393px - 40px);
+  background-repeat: no-repeat;
+}
+.boton__login {
+  width: 182px;
+  height: 51px;
+  border: 1px solid var(--color-bgBtn);
+  color: var(--color-bgBtn);
+  font-size: 1rem;
+}
+
+.bg__header {
+  background-image: url(img/Hero.png);
+  height: 352px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 115px;
+  padding-top: 150px;
+  gap: 16px;
+}
+.title__header {
+  color: #fff;
+  font-weight: 700;
+  font-size: 3.25rem;
+}
+.p__header {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.375rem;
+}
+.boton__consolas {
+  width: 129px;
+  height: 51px;
+  background-color: var(--color-bgBtn);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+main {
+  padding: 64px 115px;
+}
+.starWars,
+.consolas,
+.diversos {
+  display: flex;
+  flex-direction: column;
+  width: 1136px;
+  margin: 64px 0;
+}
+.title__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title__starWars,
+.title__consolas,
+.title__diversos {
+  font-size: 2rem;
+  color: var(--color-titleProductos);
+  font-weight: 700;
+}
+.ver {
+  font-size: 1rem;
+  font-weight: 700;
+}
+.ver a {
+  color: var(--color-bgBtn);
+}
+.precio {
+  font-weight: 700;
+}
+
+.imagenes {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 16px;
+}
+.box__starWars,
+.box__consolas,
+.box__diversos {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contacto {
+  display: flex;
+  gap: 112px;
+  width: 100%;
+  height: 368px;
+  background-color: var(--color-bg-footer);
+  padding: 64px 115px;
+}
+.logo__contacto {
+  width: 176px;
+  height: 50px;
+}
+.links > li {
+  padding-bottom: 24px;
+  color: var(--color-titleProductos);
+  font-size: 1rem;
+  font-weight: 500;
+  width: 176px;
+}
+.links li a {
+  color: var(--color-titleProductos);
+  font-size: 1rem;
+  font-weight: 500;
+}
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  height: 240px;
+}
+.form {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+form > input {
+  height: 56px;
+  margin-bottom: 16px;
+}
+form > textarea {
+  height: 82px;
+  margin-bottom: 8px;
+}
+.boton__contacto {
+  width: 144px;
+  height: 51px;
+  background-color: var(--color-bgBtn);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.rodapie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 102px;
+}

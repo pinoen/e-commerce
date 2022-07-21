@@ -4,17 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>e-commerce</title>
   </head>
   <body>
     <header>
-      <img src="img/Logo.png" alt="logo" class="logo__header" />
-      <input
-        type="text"
-        class="input__header"
-        placeholder="¿Qué deseas buscar?"
-      />
-      <button class="boton__login">Login</button>
+      <div class="buscador__header">
+        <img src="img/Logo.png" alt="logo" class="logo__header" />
+        <input
+          type="text"
+          class="input__header"
+          placeholder="¿Qué deseas buscar?"
+        />
+        <button class="boton__login">Login</button>
+      </div>
 
       <div class="bg__header">
         <h1 class="title__header">Febrero Promocional</h1>
@@ -25,9 +28,9 @@
 
     <main>
       <section class="starWars">
-        <div>
+        <div class="title__container">
           <h3 class="title__starWars">Star Wars</h3>
-          <p class="ver">Ver todo &#8594</p>
+          <p class="ver"><a href="#">Ver todo &#8594</a></p>
         </div>
         <div class="imagenes">
           <div class="box__starWars">
@@ -70,9 +73,9 @@
       </section>
 
       <section class="consolas">
-        <div>
+        <div class="title__container">
           <h3 class="title__consolas">Consolas</h3>
-          <p class="ver">Ver todo &#8594</p>
+          <p class="ver"><a href="#">Ver todo &#8594</a></p>
         </div>
         <div class="imagenes">
           <div class="box__consolas">
@@ -115,9 +118,9 @@
       </section>
 
       <section class="diversos">
-        <div>
+        <div class="title__container">
           <h3 class="title__diversos">Diversos</h3>
-          <p class="ver">Ver todo &#8594</p>
+          <p class="ver"><a href="#">Ver todo &#8594</a></p>
         </div>
         <div class="imagenes">
           <div class="box__diversos">
@@ -158,7 +161,9 @@
           </div>
         </div>
       </section>
+    </main>
 
+    <footer>
       <section class="contacto">
         <img src="img/Logo.png" alt="logo" class="logo__contacto">
         <ul class="links">
@@ -169,18 +174,21 @@
           <li><a href="#">Quiere ser franquiciado</a></li>
           <li><a href="#">Anuncie aqui</a></li>
         </ul>
-        <p class="form">Hable con nosotros</p>
-        <form action="">
-          <input type="text" placeholder="Nombre">
-          <textarea name="" id="" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-          <button type="submit" class="boton__contacto">Enviar mensaje</button>
-        </form>
+        <div class="formulario">
+          <p class="form">Hable con nosotros</p>
+          <form action="">
+            <input type="text" placeholder="Nombre">
+            <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
+            <button type="submit" class="boton__contacto">Enviar mensaje</button>
+          </form>
+        </div>
       </section>
-    </main>
 
-    <footer>
-      <p>Desarrollado por Emilio</p>
-      <p>2022</p>
+      <div class="rodapie">
+        <p>Desarrollado por Emilio</p>
+        <p>2022</p>
+      </div>
+      
     </footer>
   </body>
 </html>

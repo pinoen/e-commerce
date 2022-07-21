@@ -32,7 +32,7 @@
   border: none;
   padding-left: 16px;
   background-color: var(--color-bgInput);
-  background-image: url(img/lupa.png);
+  background-image: url(../img/lupa.png);
   background-position: calc(393px - 40px);
   background-repeat: no-repeat;
   outline: none;
@@ -45,8 +45,12 @@
   font-size: 1rem;
 }
 
+.lupa {
+  display: none;
+}
+
 .bg__header {
-  background-image: url(img/Hero.png);
+  background-image: url(../img/Hero.png);
   height: 352px;
   display: flex;
   flex-direction: column;
@@ -284,11 +288,10 @@ form > textarea {
 
 @media (max-width: 360px) {
   .buscador__header {
-    background-image: url(img/lupa.png);
-    background-position: 290px;
-    background-repeat: no-repeat;
-    justify-content: flex-start;
-    gap: 35.5px;
+    justify-content: space-between;
+  }
+  .lupa {
+    display: flex;
   }
 
   .input__header {

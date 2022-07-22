@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/agregar.css">
   <title>Login</title>
 </head>
 <body>
@@ -16,16 +16,20 @@
         class="input__header"
         placeholder="¿Qué deseas buscar?"
       />
+      <button class="boton__login"><a href="login.html">Menu Administrador</a></button>
       <a class="lupa" href="#"><img src="img/lupa.png" alt="lupa"></a>
     </div>
-  </header>  
+  </header> 
   
   <main>
-    <h3 class="inicio"></h3>
     <form action="" method="post">
-      <input type="email" name="email" id="email" placeholder="Escriba su correo electrónico">
-      <input type="password" name="password" id="password" placeholder="Escriba su contraseña">
-      <button type="submit" class="entrar">Entrar</button>
+      <h3>Agregar nuevo producto</h3>
+      <input type="url" name="url" id="url" placeholder="URL de la imagen">
+      <input type="text" name="categoria" id="categoria" placeholder="Categoria">
+      <input type="text" name="nombre" id="nombre" placeholder="Nombre del producto">
+      <input type="number" name="precio" id="precio" placeholder="Precio del producto">
+      <textarea name="descripcion" id="descripcion" placeholder="Descripcion del producto"></textarea>
+      <button type="submit" class="entrar">Agregar producto</button>
     </form>
   </main>
 

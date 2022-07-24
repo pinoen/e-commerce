@@ -61,6 +61,9 @@ main form {
 form > input {
   width: 423px;
   height: 63px;
+  padding-left: 12px;
+  outline: none;
+  border-radius: 4px;
 }
 .entrar {
   height: 62px;

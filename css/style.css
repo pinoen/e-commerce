@@ -41,6 +41,9 @@
   width: 182px;
   height: 51px;
   border: 1px solid var(--color-bgBtn);
+  background-color: #fff;
+}
+.boton__login a {
   color: var(--color-bgBtn);
   font-size: 1rem;
 }
@@ -73,6 +76,8 @@
   height: 51px;
   background-color: var(--color-bgBtn);
   border: none;
+}
+.boton__consolas a {
   color: #fff;
   font-size: 1rem;
 }

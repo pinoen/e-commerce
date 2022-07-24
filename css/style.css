@@ -5,6 +5,8 @@
   --color-bgInput: #e5e5e5;
   --color-titleProductos: #464646;
   --color-bg-footer: #eaf2fd;
+  --color-error: rgb(221, 81, 81);
+  --color-enviado: rgb(57, 194, 57);
 }
 
 * {
@@ -170,10 +172,15 @@ main {
 form > input {
   height: 56px;
   margin-bottom: 16px;
+  padding-left: 12px;
+  border-radius: 4px;
 }
 form > textarea {
   height: 82px;
   margin-bottom: 8px;
+  padding-left: 12px;
+  padding-top: 12px;
+  border-radius: 4px;
 }
 .boton__contacto {
   width: 144px;
@@ -182,6 +189,14 @@ form > textarea {
   border: none;
   color: #fff;
   font-size: 1rem;
+  margin-bottom: 12px;
+}
+.error {
+  color: var(--color-error);
+  margin-bottom: 12px;
+}
+#enviado {
+  color: var(--color-enviado);
 }
 
 .rodapie {

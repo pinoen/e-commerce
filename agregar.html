@@ -16,20 +16,21 @@
         class="input__header"
         placeholder="¿Qué deseas buscar?"
       />
-      <button class="boton__login"><a href="login.html">Menu Administrador</a></button>
+      <button class="boton__login"><a href="productos.html">Menu Administrador</a></button>
       <a class="lupa" href="#"><img src="img/lupa.png" alt="lupa"></a>
     </div>
   </header> 
   
   <main>
-    <form action="" method="post">
+    <form class="datos-producto" action="" method="post">
       <h3>Agregar nuevo producto</h3>
-      <input type="url" name="url" id="url" placeholder="URL de la imagen">
+      <input type="text" name="url" id="url" placeholder="URL de la imagen">
       <input type="text" name="categoria" id="categoria" placeholder="Categoria">
       <input type="text" name="nombre" id="nombre" placeholder="Nombre del producto">
-      <input type="number" name="precio" id="precio" placeholder="Precio del producto">
+      <input type="number" step=".01" name="precio" id="precio" placeholder="Precio del producto">
       <textarea name="descripcion" id="descripcion" placeholder="Descripcion del producto"></textarea>
       <button type="submit" class="entrar">Agregar producto</button>
+      <span id="agregado"></span>
     </form>
   </main>
 
@@ -61,7 +62,6 @@
     </div>
     
   </footer>
-
-  
+<script src="js/agregar.js"></script>
 </body>
 </html>

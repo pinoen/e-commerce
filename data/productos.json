@@ -1,24 +1,99 @@
 {
   "productos": [
     {
+      "id": 1,
       "imagen": "img/unsplash_0POwK6iAiRQ.png",
       "categoria": "Consolas",
       "nombre": "Joystick",
-      "precio": "$ 100,00",
+      "precio": 100,
       "descripcion": "Joystick inalambrico de ultima generacion."
     },
     {
+      "id": 2,
       "imagen": "img/unsplash_4OHkK555s1A.png",
       "categoria": "Star Wars",
-      "nombre": "joystick",
-      "precio": "$ 200,00",
+      "nombre": "Muneco robot",
+      "precio": 200,
       "descripcion": "Soldado robot con arma color blanco."
-    },{
+    },
+    {
+      "id": 3,
       "imagen": "img/unsplash_jMT6BrgBuXU.png",
       "categoria": "Diversos",
       "nombre": "Radio despertador",
-      "precio": "$ 50,00",
+      "precio": 50,
       "descripcion": "Radio despertador AM - FM vintage."
+    },{
+      "id": 4,
+      "imagen": "img/unsplash_6FDXGY9J6y4.png",
+      "categoria": "Star Wars",
+      "nombre": "Taza Star Wars",
+      "precio": 15,
+      "descripcion": "Tasa de 500 cm3 de capacidad."
+    },
+    {
+      "id": 5,
+      "imagen": "img/unsplash_epRFE_hBNjo.png",
+      "categoria": "Star Wars",
+      "nombre": "Cabezas Star Wars",
+      "precio": 40,
+      "descripcion": "Cabeza de goma con personajes varios."
+    },
+    {
+      "id": 6,
+      "imagen": "img/unsplash_R8L1l9RN198.png",
+      "categoria": "Star Wars",
+      "nombre": "Baby Yeti",
+      "precio": 50,
+      "descripcion": "Yeti bebe de goma tamano mediano."
+    },{
+      "id": 7,
+      "imagen": "img/unsplash_r27umXAelDc.png",
+      "categoria": "Diversos",
+      "nombre": "Muneco inflable",
+      "precio": 33,
+      "descripcion": "Muneco inflado con gas helio."
+    },
+    {
+      "id": 8,
+      "imagen": "img/unsplash_sYVY_ZKwaxU.png",
+      "categoria": "Diversos",
+      "nombre": "Muneco Sonic",
+      "precio": 35,
+      "descripcion": "Muneco Sonic articulado tamano grande."
+    },
+    {
+      "id": 9,
+      "imagen": "img/unsplash_ZV7lnfyQLmA.png",
+      "categoria": "Consolas",
+      "nombre": "Consola Nintendo",
+      "precio": 278,
+      "descripcion": "Consola Nintendo vintage 32 bits."
+    },
+    {
+      "id": 10,
+      "imagen": "img/unsplash_1VV1MRafd7A.png",
+      "categoria": "Diversos",
+      "nombre": "Disfraz de villano",
+      "precio": 63,
+      "descripcion": "Displaz para fiestas de disfraces."
+    },
+    {
+      "id": 11,
+      "imagen": "img/unsplash_MxVkWPiJALs.png",
+      "categoria": "Diversos",
+      "nombre": "Anteojos realidad virtual",
+      "precio": 545,
+      "descripcion": "Gafas aptas para metaverso."
+    },
+    {
+      "id": 12,
+      "imagen": "img/unsplash_Zjn4dT993-g.png",
+      "categoria": "Diversos",
+      "nombre": "Parlante potente",
+      "precio": 278,
+      "descripcion": "Completo equipo de audio."
     }
+    
   ]
 }

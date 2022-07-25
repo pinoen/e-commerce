@@ -5,6 +5,8 @@
   --color-bgInput: #e5e5e5;
   --color-titleProductos: #464646;
   --color-bg-footer: #eaf2fd;
+  --color-error: rgb(221, 81, 81);
+  --color-enviado: rgb(57, 194, 57);
 }
 
 * {
@@ -87,6 +89,9 @@ form textarea {
   border: none;
   color: #fff;
   font-size: 1rem;
+}
+#agregado {
+  color: var(--color-error);
 }
 
 /* Footer style */

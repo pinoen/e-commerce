@@ -38,6 +38,7 @@ const nuevoProducto = async (e) => {
   });
 
   agregado.innerHTML = "Producto agregado exitosamente!";
+  agregado.style.color = "rgb(57, 194, 57)";
 };
 
 form.addEventListener("submit", validarDatos);

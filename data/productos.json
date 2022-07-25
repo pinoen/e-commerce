@@ -1,0 +1,24 @@
+{
+  "productos": [
+    {
+      "imagen": "img/unsplash_0POwK6iAiRQ.png",
+      "categoria": "Consolas",
+      "nombre": "Joystick",
+      "precio": "$ 100,00",
+      "descripcion": "Joystick inalambrico de ultima generacion."
+    },
+    {
+      "imagen": "img/unsplash_4OHkK555s1A.png",
+      "categoria": "Star Wars",
+      "nombre": "joystick",
+      "precio": "$ 200,00",
+      "descripcion": "Soldado robot con arma color blanco."
+    },{
+      "imagen": "img/unsplash_jMT6BrgBuXU.png",
+      "categoria": "Diversos",
+      "nombre": "Radio despertador",
+      "precio": "$ 50,00",
+      "descripcion": "Radio despertador AM - FM vintage."
+    }
+  ]
+}

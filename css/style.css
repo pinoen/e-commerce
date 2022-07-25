@@ -120,8 +120,11 @@ main {
   font-weight: 700;
 }
 
-.imagenes {
+.imagenes__starWars,
+.imagenes__consolas,
+.imagenes__diversos {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
 .box__starWars,
@@ -258,7 +261,9 @@ form > textarea {
   .title__container {
     width: 704px;
   }
-  .imagenes {
+  .imagenes__starWars,
+  .imagenes__consolas,
+  .imagenes__diversos {
     gap: 6px;
   }
 
@@ -355,7 +360,9 @@ form > textarea {
   .title__container {
     width: 328px;
   }
-  .imagenes {
+  .imagenes__starWars,
+  .imagenes__consolas,
+  .imagenes__diversos {
     flex-wrap: wrap;
   }
 

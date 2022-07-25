@@ -21,11 +21,15 @@
   </header>  
   
   <main>
-    <h3 class="inicio"></h3>
+    <h3 class="inicio">Iniciar Sesion</h3>
     <form action="" method="post">
       <input type="email" name="email" id="email" placeholder="Escriba su correo electrónico">
+      <span class="error" id="errorEmail"></span>
+
       <input type="password" name="password" id="password" placeholder="Escriba su contraseña">
+      <span class="error" id="errorPassword"></span>
       <button type="submit" class="entrar">Entrar</button>
+      <span id="usuarioInvalido"></span>
     </form>
   </main>
 
@@ -43,9 +47,14 @@
       <div class="formulario">
         <p class="form">Hable con nosotros</p>
         <form action="">
-          <input type="text" placeholder="Nombre">
-          <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
-          <button type="submit" class="boton__contacto">Enviar mensaje</button>
+          <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+            <span class="error" id="errorNombre"></span>
+            
+            <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+            <span class="error" id="errorMensaje"></span>
+
+            <button type="submit" class="boton__contacto">Enviar mensaje</button>
+            <span id="enviado"></span>
         </form>
       </div>
     </section>
@@ -57,7 +66,7 @@
     </div>
     
   </footer>
-
-  
+  <script src="js/sesion.js"></script>
+  <script src="js/contacto.js"></script>
 </body>
 </html>

@@ -194,9 +194,11 @@ form > textarea {
 .error {
   color: var(--color-error);
   margin-bottom: 12px;
+  padding: 0 16px;
 }
 #enviado {
   color: var(--color-enviado);
+  padding: 0 16px;
 }
 
 .rodapie {

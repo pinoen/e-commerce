@@ -117,6 +117,30 @@
       "nombre": "Controles gamer",
       "precio": 128,
       "descripcion": "Combo gamer color azul y rojo."
+    },
+    {
+      "id": 16,
+      "imagen": "img/unsplash_fMP-oCze3AY.png",
+      "categoria": "diversos",
+      "nombre": "Remera Atari",
+      "precio": 27,
+      "descripcion": "Comoda remesa con legendario logo de la compania de games Atari."
+    },
+    {
+      "id": 17,
+      "imagen": "img/unsplash_k-xYhI3-gJM.png",
+      "categoria": "consolas",
+      "nombre": "Mini consolas",
+      "precio": 180,
+      "descripcion": "Mini consolas de mano."
+    },
+    {
+      "id": 18,
+      "imagen": "img/unsplash_KeGToDVN0l4.png",
+      "categoria": "starWars",
+      "nombre": "El viejo sabio",
+      "precio": 87,
+      "descripcion": "Muneco articulado, colores varios."
     }
     
   ]

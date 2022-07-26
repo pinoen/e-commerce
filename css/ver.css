@@ -108,14 +108,9 @@ main {
   font-size: 2rem;
   color: var(--color-titleProductos);
   font-weight: 700;
+  margin-bottom: 12px;
 }
-.ver {
-  font-size: 1rem;
-  font-weight: 700;
-}
-.ver a {
-  color: var(--color-bgBtn);
-}
+
 .precio {
   font-weight: 700;
 }
@@ -125,6 +120,7 @@ main {
 .imagenes__diversos {
   display: flex;
   gap: 64px;
+  flex-wrap: wrap;
 }
 .box__starWars,
 .box__consolas,
@@ -132,12 +128,6 @@ main {
   display: flex;
   flex-direction: column;
   gap: 8px;
-}
-
-.box__starWars:nth-child(6),
-.box__consolas:nth-child(6),
-.box__diversos:nth-child(6) {
-  display: none;
 }
 
 /* Footer style */
@@ -277,14 +267,6 @@ form > textarea {
   .title__diversos {
     font-size: 1.375rem;
   }
-  .box__starWars:nth-child(5),
-  .box__starWars:nth-child(6),
-  .box__consolas:nth-child(5),
-  .box__consolas:nth-child(6),
-  .box__diversos:nth-child(5),
-  .box__diversos:nth-child(6) {
-    display: none;
-  }
 
   /* Footer style */
 
@@ -380,14 +362,6 @@ form > textarea {
   .title__consolas,
   .title__diversos {
     font-size: 1.375rem;
-  }
-  .box__starWars:nth-child(5),
-  .box__starWars:nth-child(6),
-  .box__consolas:nth-child(5),
-  .box__consolas:nth-child(6),
-  .box__diversos:nth-child(5),
-  .box__diversos:nth-child(6) {
-    display: none;
   }
 
   /* Footer style */

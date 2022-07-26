@@ -129,6 +129,12 @@ main {
   flex-direction: column;
   gap: 8px;
 }
+.box__starWars .foto,
+.box__consolas .foto,
+.box__diversos .foto {
+  width: 176px;
+  height: 174px;
+}
 
 /* Footer style */
 

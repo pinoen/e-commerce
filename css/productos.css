@@ -91,6 +91,10 @@ main {
   flex-direction: column;
   gap: 8px;
 }
+.box__producto .foto {
+  width: 176px;
+  height: 174px;
+}
 .eliminar {
   position: absolute;
   width: 24px;

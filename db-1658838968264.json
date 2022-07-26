@@ -143,30 +143,6 @@
       "nombre": "El viejo sabio",
       "precio": 87,
       "descripcion": "Muneco articulado, colores varios."
-    },
-    {
-      "imagen": "img/mousepad.png",
-      "categoria": "diversos",
-      "nombre": "Mouse pad",
-      "precio": "$ 11.50",
-      "descripcion": "Mouse pad color azul 20 x 20cm.",
-      "id": 19
-    },
-    {
-      "imagen": "img/playstation4-color-rojo-4.png",
-      "categoria": "consolas",
-      "nombre": "Joystick PlayStation",
-      "precio": "$ 35.60",
-      "descripcion": "Joystick controlador para PlayStation 4.",
-      "id": 20
-    },
-    {
-      "imagen": "img/toy-starWars.png",
-      "categoria": "starWars",
-      "nombre": "Toy Star Wars",
-      "precio": "$ 12.75",
-      "descripcion": "Muneco articulado y con espada.",
-      "id": 21
     }
   ]
 }

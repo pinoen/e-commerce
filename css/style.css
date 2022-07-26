@@ -126,6 +126,12 @@ main {
   display: flex;
   gap: 64px;
 }
+.box__starWars .foto,
+.box__consolas .foto,
+.box__diversos .foto {
+  width: 176px;
+  height: 174px;
+}
 .box__starWars,
 .box__consolas,
 .box__diversos {
@@ -136,9 +142,23 @@ main {
 
 .box__starWars:nth-child(6),
 .box__consolas:nth-child(6),
-.box__diversos:nth-child(6) {
+.box__diversos:nth-child(6),
+.box__starWars:nth-child(7),
+.box__consolas:nth-child(7),
+.box__diversos:nth-child(7),
+.box__starWars:nth-child(8),
+.box__consolas:nth-child(8),
+.box__diversos:nth-child(8),
+.box__starWars:nth-child(9),
+.box__consolas:nth-child(9),
+.box__diversos:nth-child(9),
+.box__starWars:nth-child(10),
+.box__consolas:nth-child(10),
+.box__diversos:nth-child(10) {
   display: none;
 }
+
+.box__consolas:nth
 
 /* Footer style */
 

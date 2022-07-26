@@ -1,11 +1,8 @@
 let buscar = document.querySelector(".input__header");
-let eliminar = document.querySelector(".eliminar");
-let editar = document.querySelector(".editar");
-
 let container = document.querySelector(".imagenes");
 
 let agregarProducto = async (palabra) => {
-  let uri = "http://localhost:3000/productos?_sort=precio&_order=desc";
+  let uri = "http://localhost:3000/productos/";
   if (palabra) {
     uri += `&q=${palabra}`;
   }
@@ -28,6 +25,19 @@ let agregarProducto = async (palabra) => {
     `;
   });
   container.innerHTML = box;
+
+  let eliminar = document.querySelectorAll(".eliminar");
+  eliminar.forEach((btn) => {
+    btn.addEventListener("click", async (e) => {
+      let boxPadre = e.target.parentNode;
+      let id = boxPadre.lastElementChild.innerHTML.slice(4);
+
+      const res = await fetch("http://localhost:3000/productos/" + id, {
+        method: "delete",
+      });
+      boxPadre.remove();
+    });
+  });
 };
 
 buscar.addEventListener("keydown", (e) => {

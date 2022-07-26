@@ -101,6 +101,10 @@ main {
   top: 8px;
   right: 48px;
 }
+.eliminar:hover,
+.editar:hover {
+  cursor: pointer;
+}
 .editar {
   position: absolute;
   width: 24px;

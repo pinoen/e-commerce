@@ -137,14 +137,6 @@
       "descripcion": "Mini consolas de mano."
     },
     {
-      "id": 18,
-      "imagen": "img/unsplash_KeGToDVN0l4.png",
-      "categoria": "starWars",
-      "nombre": "El viejo sabio",
-      "precio": 87,
-      "descripcion": "Muneco articulado, colores varios."
-    },
-    {
       "imagen": "img/mousepad.png",
       "categoria": "diversos",
       "nombre": "Mouse pad",

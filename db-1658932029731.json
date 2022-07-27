@@ -41,12 +41,12 @@
       "descripcion": "Cabeza de goma con personajes varios."
     },
     {
+      "id": 6,
       "imagen": "img/unsplash_R8L1l9RN198.png",
       "categoria": "starWars",
-      "nombre": "Bebito Yoda",
-      "precio": "2.50",
-      "descripcion": "Bebito sabio.",
-      "id": 6
+      "nombre": "Baby Yeti",
+      "precio": 50,
+      "descripcion": "Yeti bebe de goma tamano mediano."
     },
     {
       "id": 7,

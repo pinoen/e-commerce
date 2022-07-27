@@ -112,6 +112,42 @@ main {
   right: 8px;
 }
 
+.box__edicion {
+  position: absolute;
+  z-index: 10;
+  width: 360px;
+  height: 310px;
+  border: 3px solid var(--color-bgBtn);
+  border-radius: 5%;
+  display: none;
+  padding: 4px;
+  background-color: var(--color-bgInput);
+}
+.box__edicion form {
+  display: flex;
+  flex-direction: column;
+}
+.box__edicion h3 {
+  margin-bottom: 4px;
+}
+.box__edicion form > input,
+textarea {
+  width: 340px;
+  height: 30px;
+  margin-bottom: 4px;
+}
+.box__edicion button {
+  height: 40px;
+  background-color: var(--color-bgBtn);
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.box__edicion button:hover {
+  cursor: pointer;
+}
+
 /* Footer style */
 
 .contacto {

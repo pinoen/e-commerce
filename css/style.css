@@ -158,8 +158,6 @@ main {
   display: none;
 }
 
-.box__consolas:nth
-
 /* Footer style */
 
 .contacto {
@@ -406,7 +404,13 @@ form > textarea {
   .box__consolas:nth-child(5),
   .box__consolas:nth-child(6),
   .box__diversos:nth-child(5),
-  .box__diversos:nth-child(6) {
+  .box__diversos:nth-child(6),
+  .box__starWars:nth-child(7),
+  .box__starWars:nth-child(8),
+  .box__consolas:nth-child(7),
+  .box__consolas:nth-child(8),
+  .box__diversos:nth-child(7),
+  .box__diversos:nth-child(8) {
     display: none;
   }
 

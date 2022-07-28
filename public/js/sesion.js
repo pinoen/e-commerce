@@ -42,7 +42,7 @@ function iniciarSesion() {
         usuarioInvalido.style.color = "green";
         errorEmail.innerHTML = "";
         errorPassword.innerHTML = "";
-        window.location.replace("/productos.html");
+        window.location.replace("productos.html");
       }
     }
   }

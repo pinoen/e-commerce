@@ -9,12 +9,12 @@
       "descripcion": "Joystick inalambrico de ultima generacion."
     },
     {
+      "id": 2,
       "imagen": "img/unsplash_4OHkK555s1A.png",
       "categoria": "starWars",
       "nombre": "Muneco robot",
-      "precio": "200.05",
-      "descripcion": "Soldado ejercito blanco con fusil",
-      "id": 2
+      "precio": 200,
+      "descripcion": "Soldado robot con arma color blanco."
     },
     {
       "id": 3,
@@ -159,30 +159,6 @@
       "precio": 12.75,
       "descripcion": "Muneco articulado y con espada.",
       "id": 21
-    },
-    {
-      "imagen": "img/stickers.png",
-      "categoria": "diversos",
-      "nombre": "Stickers varios",
-      "precio": "2",
-      "descripcion": "Stickers motivos varios.",
-      "id": 22
-    },
-    {
-      "imagen": "img/darthVader.png",
-      "categoria": "starWars",
-      "nombre": "Darth Vader",
-      "precio": "45",
-      "descripcion": "Muneco del Capitan Darth Vader de pie.",
-      "id": 23
-    },
-    {
-      "imagen": "img/unsplash_KeGToDVN0l4.png",
-      "categoria": "starWars",
-      "nombre": "Pintura Yoda",
-      "precio": "56",
-      "descripcion": "Cuadro realista pintado al oleo.",
-      "id": 25
     }
   ]
 }

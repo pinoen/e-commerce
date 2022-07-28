@@ -5,7 +5,7 @@ let container__diversos = document.querySelector(".imagenes__diversos");
 let buscar = document.querySelector(".input__header");
 
 let agregarProducto = async (palabra) => {
-  let uri = "http://localhost:3000/productos?_sort=precio&_order=desc";
+  let uri = "http://localhost:3000/productos?";
   if (palabra) {
     uri += `&q=${palabra}`;
   }

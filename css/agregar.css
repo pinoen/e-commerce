@@ -135,11 +135,14 @@ form > input {
   width: 560px;
   height: 56px;
   margin-bottom: 16px;
+  padding-left: 12px;
 }
 form > textarea {
   width: 560px;
   height: 82px;
   margin-bottom: 8px;
+  padding-left: 12px;
+  padding-top: 12px;
 }
 .boton__contacto {
   width: 144px;
@@ -148,6 +151,25 @@ form > textarea {
   border: none;
   color: #fff;
   font-size: 1rem;
+}
+.boton__contacto:hover {
+  cursor: pointer;
+}
+.error {
+  color: var(--color-error);
+  margin-bottom: 12px;
+  padding: 0 16px;
+  max-width: 560px;
+}
+#enviado {
+  color: var(--color-enviado);
+  padding: 0 16px;
+}
+#usuarioInvalido {
+  color: var(--color-error);
+  margin-bottom: 12px;
+  padding: 0 16px;
+  max-width: 560px;
 }
 
 .rodapie {

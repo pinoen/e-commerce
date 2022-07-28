@@ -2,7 +2,7 @@ let buscar = document.querySelector(".input__header");
 let container = document.querySelector(".imagenes");
 
 let agregarProducto = async (palabra) => {
-  let uri = "http://localhost:3000/productos/";
+  let uri = "http://localhost:3000/productos?";
   if (palabra) {
     uri += `&q=${palabra}`;
   }

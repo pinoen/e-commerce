@@ -217,6 +217,9 @@ form > textarea {
   font-size: 1rem;
   margin-bottom: 12px;
 }
+.boton__contacto:hover {
+  cursor: pointer;
+}
 .error {
   color: var(--color-error);
   margin-bottom: 12px;

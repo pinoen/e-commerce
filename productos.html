@@ -34,7 +34,7 @@
 
     <footer>
       <section class="contacto">
-        <img src="img/Logo.png" alt="logo" class="logo__contacto">
+        <a href="index.html"><img src="img/Logo.png" alt="logo" class="logo__contacto"></a>
         <ul class="links">
           <li><a href="#">Quienes somos</a></li>
           <li><a href="#">Politica de privacidad</a></li>
@@ -46,9 +46,14 @@
         <div class="formulario">
           <p class="form">Hable con nosotros</p>
           <form action="">
-            <input type="text" placeholder="Nombre">
-            <textarea name="" id="" placeholder="Escribe tu mensaje"></textarea>
-            <button type="submit" class="boton__contacto">Enviar mensaje</button>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+              <span class="error" id="errorNombre"></span>
+              
+              <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+              <span class="error" id="errorMensaje"></span>
+  
+              <button type="submit" class="boton__contacto">Enviar mensaje</button>
+              <span id="enviado"></span>
           </form>
         </div>
       </section>
@@ -60,6 +65,7 @@
       </div>
       
     </footer>
-  <script src="js/productos.js"></script>  
+  <script src="js/productos.js"></script>
+  <script src="js/contacto.js"></script>  
   </body>
 </html>

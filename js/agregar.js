@@ -27,7 +27,7 @@ const nuevoProducto = async (e) => {
     imagen: form.url.value,
     categoria: form.categoria.value,
     nombre: form.nombre.value,
-    precio: "$ " + form.precio.value,
+    precio: form.precio.value,
     descripcion: form.descripcion.value,
   };
 

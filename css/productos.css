@@ -5,6 +5,8 @@
   --color-bgInput: #e5e5e5;
   --color-titleProductos: #464646;
   --color-bg-footer: #eaf2fd;
+  --color-error: rgb(221, 81, 81);
+  --color-enviado: rgb(57, 194, 57);
 }
 
 * {
@@ -187,11 +189,16 @@ textarea {
 }
 form > input {
   height: 56px;
+  width: 560px;
   margin-bottom: 16px;
+  padding-left: 12px;
 }
 form > textarea {
   height: 82px;
+  width: 560px;
   margin-bottom: 8px;
+  padding-left: 12px;
+  padding-top: 12px;
 }
 .boton__contacto {
   width: 144px;
@@ -200,6 +207,9 @@ form > textarea {
   border: none;
   color: #fff;
   font-size: 1rem;
+}
+.boton__contacto:hover {
+  cursor: pointer;
 }
 
 .rodapie {
@@ -217,6 +227,17 @@ form > textarea {
 }
 .rodapie img:hover {
   transform: scale(0.95);
+}
+
+.error {
+  color: var(--color-error);
+  margin-bottom: 12px;
+  padding: 0 16px;
+  max-width: 560px;
+}
+#enviado {
+  color: var(--color-enviado);
+  padding: 8px 16px;
 }
 
 /* Responsive design */
@@ -288,6 +309,15 @@ form > textarea {
   .formulario form {
     width: 434px;
     height: 229px;
+  }
+  form > input {
+    width: 434px;
+  }
+  form > textarea {
+    width: 340px;
+  }
+  form > #mensaje {
+    width: 434px;
   }
 
   .boton__contacto {

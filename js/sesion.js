@@ -38,6 +38,10 @@ function iniciarSesion() {
         usuarioInvalido.innerHTML =
           "Correo electronico no registrado o clave incorrecta";
       } else {
+        usuarioInvalido.innerHTML = "Login exitoso!";
+        usuarioInvalido.style.color = "green";
+        errorEmail.innerHTML = "";
+        errorPassword.innerHTML = "";
         window.location.replace("/productos.html");
       }
     }

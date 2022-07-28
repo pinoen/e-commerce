@@ -1,9 +1,11 @@
 # e-commerce
+
 Oracle Next Education Project
-Este proyecto es parte del programa Oracle Next Education. 
+Este proyecto es parte del programa Oracle Next Education.
 Se simula una empresa llamada AluraGeek que necesita llegar a más clientes y aumentar su nivel de ventas, por lo que se desarrolla un e-commerce.
 
 El e-commerce tiene estas caracteristicas:
+
 - Una página de inicio que contiene un botón de inicio de sesión y un motor de búsqueda de productos ofrecidos por la empresa.
 - Un banner que contenga descuentos, promociones o informaciónes relevante del momento.
 - Una galería con información del producto, como imagen, nombre del producto, precio y un enlace a la página de descripción del producto.
@@ -14,3 +16,6 @@ El e-commerce tiene estas caracteristicas:
 
 El sitio sea adaptable para que los clientes puedan comprar fácilmente a través de dispositivos móviles.
 
+NOTA IMPORTANTE: Para loguerse usar estos dos posibles datos:
+email: pinoen@gmail.com, password: pinoen
+email: pinoen@proton.com, password": pino

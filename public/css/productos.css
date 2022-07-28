@@ -132,8 +132,12 @@ main {
 .box__edicion h3 {
   margin-bottom: 4px;
 }
-.box__edicion form > input,
-textarea {
+.box__edicion form > input {
+  width: 340px;
+  height: 30px;
+  margin-bottom: 4px;
+}
+.box__edicion form > textarea {
   width: 340px;
   height: 30px;
   margin-bottom: 4px;

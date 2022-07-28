@@ -1,0 +1,23 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "e-commerce project for the Oracle Next Education program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinoen/e-commerce.git"
+  },
+  "author": "Emilio Pino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pinoen/e-commerce/issues"
+  },
+  "homepage": "https://github.com/pinoen/e-commerce#readme",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

@@ -16,6 +16,9 @@ El e-commerce tiene estas caracteristicas:
 
 El sitio sea adaptable para que los clientes puedan comprar fácilmente a través de dispositivos móviles.
 
-NOTA IMPORTANTE: Para loguerse usar estos dos posibles datos:
+NOTA IMPORTANTE: 
+Si no se visualizan las imagenes, por favor inicializador el servidor de manera local ejecutando desde la command line el siguiente comando: 
+json-server --w public/data/productos.js
+Para loguerse y acceder al menu de administracion de productos usar estos dos posibles usuarios validados:
 email: pinoen@gmail.com, password: pinoen
 email: pinoen@proton.com, password": pino

@@ -5,9 +5,9 @@ let container__diversos = document.querySelector(".imagenes__diversos");
 let buscar = document.querySelector(".input__header");
 
 let agregarProducto = async (palabra) => {
-  let uri = "http://localhost:3000/productos?";
+  let uri = "https://e-commerce-api-pinoen.herokuapp.com/productos";
   if (palabra) {
-    uri += `&q=${palabra}`;
+    uri += `?&q=${palabra}`;
   }
 
   const respuesta = await fetch(uri);

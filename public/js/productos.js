@@ -2,9 +2,9 @@ let buscar = document.querySelector(".input__header");
 let container = document.querySelector(".imagenes");
 
 let agregarProducto = async (palabra) => {
-  let uri = "http://localhost:3000/productos?";
+  let uri = "https://e-commerce-api-pinoen.herokuapp.com/productos";
   if (palabra) {
-    uri += `&q=${palabra}`;
+    uri += `?&q=${palabra}`;
   }
 
   const respuesta = await fetch(uri);
@@ -33,9 +33,12 @@ let agregarProducto = async (palabra) => {
       let boxPadre = e.target.parentNode.children;
       let id = boxPadre[5].innerHTML.slice(4);
 
-      const res = await fetch("http://localhost:3000/productos/" + id, {
-        method: "delete",
-      });
+      const res = await fetch(
+        "https://e-commerce-api-pinoen.herokuapp.com/productos/" + id,
+        {
+          method: "delete",
+        }
+      );
       boxPadre.remove();
     });
   });
@@ -82,7 +85,8 @@ let agregarProducto = async (palabra) => {
         };
         console.log(formulario);
         const response = await fetch(
-          "http://localhost:3000/productos/" + datosProductos.id,
+          "https://e-commerce-api-pinoen.herokuapp.com/productos/" +
+            datosProductos.id,
           {
             method: "put",
             headers: {

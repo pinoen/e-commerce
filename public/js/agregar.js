@@ -31,7 +31,7 @@ const nuevoProducto = async (e) => {
     descripcion: form.descripcion.value,
   };
 
-  await fetch("http://localhost:3000/productos", {
+  await fetch("https://e-commerce-api-pinoen.herokuapp.com/productos", {
     method: "post",
     body: JSON.stringify(datos),
     headers: { "Content-Type": "application/json" },

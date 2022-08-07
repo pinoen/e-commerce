@@ -73,13 +73,15 @@
   font-weight: 700;
   font-size: 1.375rem;
 }
-.boton__consolas {
+.boton__consolas,
+.boton__busqueda {
   width: 129px;
   height: 51px;
   background-color: var(--color-bgBtn);
   border: none;
 }
-.boton__consolas a {
+.boton__consolas a,
+.boton__busqueda a {
   color: #fff;
   font-size: 1rem;
 }
@@ -88,6 +90,12 @@
 
 main {
   padding: 64px 115px;
+}
+.busqueda {
+  display: none;
+  flex-direction: column;
+  width: 1136px;
+  margin: 64px 0;
 }
 .starWars,
 .consolas,
@@ -104,7 +112,8 @@ main {
 }
 .title__starWars,
 .title__consolas,
-.title__diversos {
+.title__diversos,
+.title__busqueda {
   font-size: 2rem;
   color: var(--color-titleProductos);
   font-weight: 700;
@@ -117,7 +126,8 @@ main {
 
 .imagenes__starWars,
 .imagenes__consolas,
-.imagenes__diversos {
+.imagenes__diversos,
+.imagenes__busqueda {
   display: flex;
   gap: 64px;
   flex-wrap: wrap;
